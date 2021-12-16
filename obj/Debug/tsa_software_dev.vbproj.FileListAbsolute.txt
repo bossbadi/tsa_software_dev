@@ -1,0 +1,13 @@
+C:\Users\andy\Documents\GitHub\tsa_software_dev\bin\Debug\tsa_software_dev.exe.config
+C:\Users\andy\Documents\GitHub\tsa_software_dev\bin\Debug\tsa_software_dev.exe
+C:\Users\andy\Documents\GitHub\tsa_software_dev\bin\Debug\tsa_software_dev.pdb
+C:\Users\andy\Documents\GitHub\tsa_software_dev\bin\Debug\tsa_software_dev.xml
+C:\Users\andy\Documents\GitHub\tsa_software_dev\obj\Debug\tsa_software_dev.vbproj.AssemblyReference.cache
+C:\Users\andy\Documents\GitHub\tsa_software_dev\obj\Debug\tsa_software_dev.vbproj.SuggestedBindingRedirects.cache
+C:\Users\andy\Documents\GitHub\tsa_software_dev\obj\Debug\tsa_software_dev.Form1.resources
+C:\Users\andy\Documents\GitHub\tsa_software_dev\obj\Debug\tsa_software_dev.Resources.resources
+C:\Users\andy\Documents\GitHub\tsa_software_dev\obj\Debug\tsa_software_dev.vbproj.GenerateResource.cache
+C:\Users\andy\Documents\GitHub\tsa_software_dev\obj\Debug\tsa_software_dev.vbproj.CoreCompileInputs.cache
+C:\Users\andy\Documents\GitHub\tsa_software_dev\obj\Debug\tsa_software_dev.exe
+C:\Users\andy\Documents\GitHub\tsa_software_dev\obj\Debug\tsa_software_dev.xml
+C:\Users\andy\Documents\GitHub\tsa_software_dev\obj\Debug\tsa_software_dev.pdb
