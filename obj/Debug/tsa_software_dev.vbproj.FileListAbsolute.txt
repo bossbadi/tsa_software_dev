@@ -12,3 +12,4 @@ C:\Users\andy\Documents\GitHub\tsa_software_dev\obj\Debug\tsa_software_dev.xml
 C:\Users\andy\Documents\GitHub\tsa_software_dev\obj\Debug\tsa_software_dev.pdb
 C:\Users\andy\Documents\GitHub\tsa_software_dev\obj\Debug\tsa_software_dev.Navigation.resources
 C:\Users\andy\Documents\GitHub\tsa_software_dev\obj\Debug\tsa_software_dev.Form_GPA.resources
+C:\Users\andy\Documents\GitHub\tsa_software_dev\obj\Debug\tsa_software_dev.Form_BaseConverter.resources
