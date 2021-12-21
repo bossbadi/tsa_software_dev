@@ -69,13 +69,14 @@ Partial Class Form_GPA
         '
         'ButtonAdd
         '
+        Me.ButtonAdd.BackColor = System.Drawing.Color.PaleGreen
         Me.ButtonAdd.Font = New System.Drawing.Font("Modern No. 20", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonAdd.Location = New System.Drawing.Point(12, 233)
         Me.ButtonAdd.Name = "ButtonAdd"
         Me.ButtonAdd.Size = New System.Drawing.Size(230, 48)
         Me.ButtonAdd.TabIndex = 4
         Me.ButtonAdd.Text = "Add"
-        Me.ButtonAdd.UseVisualStyleBackColor = True
+        Me.ButtonAdd.UseVisualStyleBackColor = False
         '
         'Label_GPA
         '
@@ -152,18 +153,20 @@ Partial Class Form_GPA
         '
         'ButtonRemove
         '
+        Me.ButtonRemove.BackColor = System.Drawing.Color.PaleGreen
         Me.ButtonRemove.Font = New System.Drawing.Font("Modern No. 20", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRemove.Location = New System.Drawing.Point(12, 287)
         Me.ButtonRemove.Name = "ButtonRemove"
         Me.ButtonRemove.Size = New System.Drawing.Size(230, 48)
         Me.ButtonRemove.TabIndex = 12
         Me.ButtonRemove.Text = "Remove"
-        Me.ButtonRemove.UseVisualStyleBackColor = True
+        Me.ButtonRemove.UseVisualStyleBackColor = False
         '
         'Form_GPA
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.LightGreen
         Me.ClientSize = New System.Drawing.Size(514, 346)
         Me.Controls.Add(Me.ButtonRemove)
         Me.Controls.Add(Me.Label5)
@@ -177,6 +180,7 @@ Partial Class Form_GPA
         Me.Controls.Add(Me.GradeInput)
         Me.Controls.Add(Me.Grades)
         Me.Controls.Add(Me.Label1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "Form_GPA"
         Me.Text = "GPA Calculator"
         Me.ResumeLayout(False)

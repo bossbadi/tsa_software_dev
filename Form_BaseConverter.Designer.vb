@@ -85,13 +85,14 @@ Partial Class Form_BaseConverter
         '
         'ButtonConvert
         '
+        Me.ButtonConvert.BackColor = System.Drawing.Color.Snow
         Me.ButtonConvert.Font = New System.Drawing.Font("Modern No. 20", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonConvert.Location = New System.Drawing.Point(12, 289)
         Me.ButtonConvert.Name = "ButtonConvert"
         Me.ButtonConvert.Size = New System.Drawing.Size(189, 56)
         Me.ButtonConvert.TabIndex = 18
         Me.ButtonConvert.Text = "Convert"
-        Me.ButtonConvert.UseVisualStyleBackColor = True
+        Me.ButtonConvert.UseVisualStyleBackColor = False
         '
         'Label_Converted
         '
@@ -129,6 +130,7 @@ Partial Class Form_BaseConverter
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.MistyRose
         Me.ClientSize = New System.Drawing.Size(514, 361)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.BaseOutput)
@@ -139,6 +141,7 @@ Partial Class Form_BaseConverter
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.NumberInput)
         Me.Controls.Add(Me.Label1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "Form_BaseConverter"
         Me.Text = "Base Converter"
         Me.ResumeLayout(False)

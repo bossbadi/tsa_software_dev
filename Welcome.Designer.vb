@@ -30,54 +30,58 @@ Partial Class Navigation
         '
         'Label1
         '
-        Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label1.Font = New System.Drawing.Font("Modern No. 20", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(167, 53)
+        Me.Label1.Font = New System.Drawing.Font("Modern No. 20", 47.99999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(100, 58)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(449, 80)
+        Me.Label1.Size = New System.Drawing.Size(597, 80)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Welcome to CalcHub"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Button_GPA
         '
+        Me.Button_GPA.BackColor = System.Drawing.Color.Aquamarine
         Me.Button_GPA.Font = New System.Drawing.Font("Modern No. 20", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button_GPA.Location = New System.Drawing.Point(59, 182)
         Me.Button_GPA.Name = "Button_GPA"
         Me.Button_GPA.Size = New System.Drawing.Size(186, 122)
         Me.Button_GPA.TabIndex = 1
         Me.Button_GPA.Text = "GPA Calculator"
-        Me.Button_GPA.UseVisualStyleBackColor = True
+        Me.Button_GPA.UseVisualStyleBackColor = False
         '
         'Button_BaseConverter
         '
+        Me.Button_BaseConverter.BackColor = System.Drawing.Color.Aquamarine
         Me.Button_BaseConverter.Font = New System.Drawing.Font("Modern No. 20", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button_BaseConverter.Location = New System.Drawing.Point(293, 182)
         Me.Button_BaseConverter.Name = "Button_BaseConverter"
         Me.Button_BaseConverter.Size = New System.Drawing.Size(186, 122)
         Me.Button_BaseConverter.TabIndex = 2
         Me.Button_BaseConverter.Text = "Base Converter"
-        Me.Button_BaseConverter.UseVisualStyleBackColor = True
+        Me.Button_BaseConverter.UseVisualStyleBackColor = False
         '
         'Button_RandomProblem
         '
+        Me.Button_RandomProblem.BackColor = System.Drawing.Color.Aquamarine
         Me.Button_RandomProblem.Font = New System.Drawing.Font("Modern No. 20", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button_RandomProblem.Location = New System.Drawing.Point(538, 182)
         Me.Button_RandomProblem.Name = "Button_RandomProblem"
         Me.Button_RandomProblem.Size = New System.Drawing.Size(186, 122)
         Me.Button_RandomProblem.TabIndex = 3
         Me.Button_RandomProblem.Text = "Random Problem"
-        Me.Button_RandomProblem.UseVisualStyleBackColor = True
+        Me.Button_RandomProblem.UseVisualStyleBackColor = False
         '
         'Navigation
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.MediumAquamarine
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.Button_RandomProblem)
         Me.Controls.Add(Me.Button_BaseConverter)
         Me.Controls.Add(Me.Button_GPA)
         Me.Controls.Add(Me.Label1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "Navigation"
         Me.Text = "CalcHub"
         Me.ResumeLayout(False)
