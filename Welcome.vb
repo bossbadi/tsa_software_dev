@@ -6,4 +6,8 @@
     Private Sub Button_BaseConverter_Click(sender As Object, e As EventArgs) Handles Button_BaseConverter.Click
         Form_BaseConverter.Show()
     End Sub
+
+    Private Sub Button_RandomProblem_Click(sender As Object, e As EventArgs) Handles Button_RandomProblem.Click
+        Form_RandomProblem.Show()
+    End Sub
 End Class
