@@ -1,11 +1,11 @@
 {
   "Version": 1,
   "ProjectMap": {
-    "a39d1638-0280-4568-90ff-08223e40f4ad": {
-      "ProjectGuid": "a39d1638-0280-4568-90ff-08223e40f4ad",
-      "DisplayName": "tsa_software_dev",
-      "ColorIndex": 0
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 0
 }

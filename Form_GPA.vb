@@ -11,31 +11,35 @@
 
                 Grades.Items.Add(grade)
 
-                ' sum up all the numbers in Grades.Items
-                Dim sum As Double = 0
-                For Each item As Double In Grades.Items
-                    sum += item
-                Next
-
-                ' divide the sum by the number of items in Grades.Items
-                Dim avg As Double = sum / Grades.Items.Count
-
-                ' format to 2 decimal places
-                Label_Grade.Text = Format(avg, "0.00")
-                Label_GPA.Text = Format(avg / 20 - 1, "0.00")
-
-                ' color both labels based on label_grade
-                If avg >= 90 Then
-                    Label_Grade.ForeColor = Color.Green
-                    Label_GPA.ForeColor = Color.Green
-                ElseIf avg >= 80 Then
-                    Label_Grade.ForeColor = Color.DarkOrange
-                    Label_GPA.ForeColor = Color.DarkOrange
-                Else
-                    Label_Grade.ForeColor = Color.Red
-                    Label_GPA.ForeColor = Color.Red
-                End If
+                UpdateGPA()
             End If
+        End If
+    End Sub
+
+    Sub UpdateGPA()
+        ' sum up all the numbers in Grades.Items
+        Dim sum As Double = 0
+        For Each item As Double In Grades.Items
+            sum += item
+        Next
+
+        ' divide the sum by the number of items in Grades.Items
+        Dim avg As Double = sum / Grades.Items.Count
+
+        ' format to 2 decimal places
+        Label_Grade.Text = Format(avg, "0.00")
+        Label_GPA.Text = Format(avg / 20 - 1, "0.00")
+
+        ' color both labels based on label_grade
+        If avg >= 90 Then
+            Label_Grade.ForeColor = Color.Green
+            Label_GPA.ForeColor = Color.Green
+        ElseIf avg >= 80 Then
+            Label_Grade.ForeColor = Color.DarkOrange
+            Label_GPA.ForeColor = Color.DarkOrange
+        Else
+            Label_Grade.ForeColor = Color.Red
+            Label_GPA.ForeColor = Color.Red
         End If
     End Sub
 
@@ -44,6 +48,8 @@
             Dim num As Integer
             num = Grades.SelectedIndex
             Grades.Items.RemoveAt(num)
+
+            UpdateGPA()
         End If
     End Sub
 End Class

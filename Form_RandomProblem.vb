@@ -37,7 +37,6 @@
         question = qa(randomIndex, 0)
         answer = qa(randomIndex, 1)
         Label_Card.Text = question
-
     End Sub
 
     Private Sub Label_Card_Click(sender As Object, e As EventArgs) Handles Label_Card.Click
