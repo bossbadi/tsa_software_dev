@@ -73,7 +73,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.Designer.vb">
+    <Compile Include="Form_BaseConverter.Designer.vb">
       <DependentUpon>Form_BaseConverter.vb</DependentUpon>
     </Compile>
     <Compile Include="Form_BaseConverter.vb">
@@ -109,7 +109,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="Form_BaseConverter.resx">
       <DependentUpon>Form_BaseConverter.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_GPA.resx">
